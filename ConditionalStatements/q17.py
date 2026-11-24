@@ -1,0 +1,10 @@
+# Q17. Check grade based on marks (A, B, C, Fail).
+marks = float(input("Enter marks out of 100: "))
+if marks >= 80:
+    print("Grade A")
+elif marks >= 60:
+    print("Grade B")
+elif marks >= 40:
+    print("Grade C")
+else:
+    print("Fail")
